@@ -32,11 +32,11 @@
 
 ## &#x1f4c8; Estadísticas de GitHub
 
-<a href="https://github.com/epmyas2022">
-  <img align="center" style="margin:0.5rem" src="https://github-readme-stats.vercel.app/api/top-langs/?username=epmyas2022&hide=html,css&title_color=ffffff&text_color=c9cacc&icon_color=4AB197&bg_color=2C2929&custom_title=Idioma más utilizado" />
 
 
-</a>
+
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=epmyas2022&hide=html,css&title_color=ffffff&text_color=c9cacc&icon_color=4AB197&bg_color=2C2929)
+
 
 
 ## 💼 Habilidades
