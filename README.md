@@ -1,10 +1,9 @@
 
 
 
-<div style="position: absolute; height: 100vh; opacity: 0.12;" >
 
-<img src="./images/settings.gif" />
-</div>
+<img src="./images/settings.gif" height="200px" width="400px" />
+
 
 # Hola, soy Isaac Castillo 👋
 <p align="start">
@@ -71,11 +70,5 @@
 
 <br/>
 
-<div style="position: relative; width: 300px; height: 200px">
 
-<div  style="position: absolute; top: 40%; left: 50%;  transform: translate(-50%, -50%)">
-<h3> 
 🎉¡Gracias por visitar mi perfil de GitHub! 🎉</h3>
-</div>
-<img style="width:100%; height: 100%;" src="./images/video.gif" />
-</div>
