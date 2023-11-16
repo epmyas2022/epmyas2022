@@ -2,8 +2,6 @@
 
 
 
-<img src="./images/settings.gif" height="200px" width="400px" />
-
 
 # Hola, soy Isaac Castillo 👋
 <p align="start">
