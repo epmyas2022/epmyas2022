@@ -14,7 +14,7 @@
 🚀 Transformando ideas en código y creando experiencias digitales impactantes.
 
 ### Lo que hago:
-- Desarrollo Backend con [Node, Php, etc].
+- Desarrollo Backend con Node, Php, etc.
 - Diseño y construyo interfaces Frontend intuitivas y atractivas.
 - Exploro el mundo del desarrollo móvil para expandir mis habilidades.
 
