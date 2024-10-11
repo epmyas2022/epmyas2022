@@ -6,7 +6,7 @@
 # Hola, soy Isaac Castillo 👋
 <p align="start">
     <img src="https://badges.pufler.dev/visits/epmyas2022/epmyas2022" alt="visitors"/>   
-    <a href="#">  <img src="https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=white&color=0D76A8" alt="years"/> </a>
+    <a href="https://www.linkedin.com/in/isaac-castillo-b4a213225">  <img src="https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=white&color=0D76A8" alt="years"/> </a>
 </p>
 
 ## 💻 Backend | Frontend | Móvil
