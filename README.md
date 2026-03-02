@@ -33,7 +33,7 @@
 
 
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=epmyas2022&hide=html,css&title_color=ffffff&text_color=c9cacc&icon_color=4AB197&bg_color=2C2929)
+![](https://raw.githubusercontent.com/epmyas2022/epmyas2022/refs/heads/main/stats.svg)
 
 
 
