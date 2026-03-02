@@ -1,0 +1,58 @@
+name: Update Language Stats
+
+on:
+  # Run every day at 00:00 UTC
+  schedule:
+    - cron: '0 0 * * *'
+
+  # Allow manual trigger from the Actions tab
+  workflow_dispatch:
+
+# Minimum permissions: only write to repo contents (to commit the SVG)
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    name: Generate Language Stats SVG
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate stats.svg
+        env:
+          # STATS_TOKEN: Personal Access Token with 'repo' scope
+          # Add it in: repo Settings → Secrets and variables → Actions → New repository secret
+          # Note: GITHUB_TOKEN is reserved by GitHub Actions, so we use GH_TOKEN instead
+          GH_TOKEN: ${{ secrets.STATS_TOKEN }}
+
+          # GH_USERNAME: your GitHub username (non-sensitive)
+          # Add it in: repo Settings → Secrets and variables → Actions → Variables tab
+          # Note: GitHub reserves the GITHUB_ prefix, so we use GH_USERNAME instead
+          GITHUB_USERNAME: ${{ vars.GH_USERNAME }}
+
+          OUTPUT_FILE: stats.svg
+          TOP_N: '12'
+          INCLUDE_FORKS: 'false'
+        run: node generate-stats.mjs
+
+      - name: Commit and push stats.svg
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          git add stats.svg
+          if git diff --cached --quiet; then
+            echo "No changes to stats.svg — skipping commit."
+          else
+            git commit -m "chore: update language stats [skip ci]"
+            git rebase origin/main
+            git push
+          fi
