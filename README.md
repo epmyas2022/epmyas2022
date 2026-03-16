@@ -8,7 +8,7 @@
 
 <!-- TYPING -->
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=800&color=DB2777&center=true&vCenter=true&width=600&lines=Backend+Developer;Frontend+Vue,React;Pattern+Desing;Hexagonal+Architecture"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&duration=3000&pause=300&color=FA2D88&center=true&random=true&width=500&lines=Desarrollo+Backend;Desarrollo+Frontend;Patrones+de+dise%C3%B1o;Arquitectura+Hexagonal;Vue%2C+Nuxt%2C+Nextjs%2C+Nestjs%2C+Laravel;PostgreSQL%2C+Mysql%2C+Mongo%2C+Redis;Agentes+de+IA+(N8N%2C+Langchain)"/>
 </p>
 
 
