@@ -72,4 +72,3 @@
 <br/>
 
 🎉¡Gracias por visitar mi perfil de GitHub! 🎉
-🎉¡Gracias por visitar mi perfil de GitHub! 🎉</h3>
