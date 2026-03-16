@@ -41,6 +41,7 @@
 
 ![](https://raw.githubusercontent.com/epmyas2022/epmyas2022/refs/heads/main/stats.svg)
 
+<img src="https://github-profile-trophy.vercel.app/?username=epmyas2022&theme=radical"/>
 
 ## 💼 Habilidades
 
