@@ -8,7 +8,7 @@
 
 <!-- TYPING -->
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=800&color=DB2777&center=true&vCenter=true&width=600&lines=Backend+Developer;Frontend;SOLID;Pattern+Desing"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=800&color=DB2777&center=true&vCenter=true&width=600&lines=Backend+Developer;Frontend+Vue,React;Pattern+Desing;Hexagonal+Architecture"/>
 </p>
 
 
